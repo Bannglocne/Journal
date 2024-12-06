@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng 3</title>
+    <style>
+        table {
+            border-collapse: collapse; /*Tránh khoảng cách thừa giữa các viền*/
+            width: 100%; /*Không quan trọng*/
+            margin: 20px auto; /*Không quan trọng*/
+        }
+        th, td {
+            border: 1px solid black; /*Tạo viền*/
+            padding: 10px; /*Không quan trọng*/
+            text-align: center; /*Không quan trọng*/
+        }
+        th {
+            background-color: #f4f4f4; /*Không quan trọng*/
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Bảng 2</strong></caption>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Mặt hàng</th>
+                <th>Đơn giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th>Ghi chú</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Mặt hàng A</td>
+            <td>1000</td>
+            <td>1</td>
+            <td>1000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mặt hàng B</td>
+            <td>2000</td>
+            <td>2</td>
+            <td>4000</td>
+            <td></td>
+        </tr>
+        <tfoot>
+            <tr>
+                <th colspan="4">Thành tiền đơn hàng</th>
+                <th colspan="2">4000</th>
+    
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
